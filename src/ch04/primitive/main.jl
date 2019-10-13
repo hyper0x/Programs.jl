@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.1.1
-# - Author: haolin
-# - Date: 2019-07-10
+# - Julia version: 1.2.0
+# - Author: HaoLin
+# - Date: 2020-01-01
 
 primitive type MyUInt64 <: Unsigned 64 end
 
@@ -14,7 +14,7 @@ MyUInt64(x::UInt64) = reinterpret(MyUInt64, x)
 UInt64(x::MyUInt64) = reinterpret(UInt64, x)
 
 # 显示函数的新方法，针对 MyUInt64 类型。
-Base.show(io :: IO, x :: MyUInt64) = print(io, UInt64(x))
+Base.show(io::IO, x::MyUInt64) = print(io, UInt64(x))
 
 
 """

@@ -1,21 +1,21 @@
 # 示例的演示文件。
-# - Julia version: 1.1.1
-# - Author: haolin
-# - Date: 2019-07-17
+# - Julia version: 1.2.0
+# - Author: HaoLin
+# - Date: 2020-01-01
 
 # 任意精度的整数
 # 示例的演示文件。
-# - Julia version: 1.1.1
-# - Author: haolin
-# - Date: 2019-07-17
+# - Julia version: 1.2.0
+# - Author: HaoLin
+# - Date: 2020-01-01
 
 big_int = big"1234567890123456789012345678901234567890"
 println("The big integer: $(big_int) ($(typeof(big_int)))\n")
 
 
-float_number = 5/7
+float_number = 5 / 7
 println("The float number: $(float_number) ($(typeof(float_number)))")
-big_float = BigFloat(5/7)
+big_float = BigFloat(5 / 7)
 println("The big float:    $(big_float) ($(typeof(big_float)))\n")
 
 
@@ -32,12 +32,12 @@ setrounding(BigFloat, new_rounding)
 println("The new precision of BigFloat: $(new_precision)")
 println("The new rounding of BigFloat: $(new_rounding)")
 
-big_float2 = BigFloat(5/7)
+big_float2 = BigFloat(5 / 7)
 println("The big float(2): $(big_float2) ($(typeof(big_float2)))\n")
 
 
 new_rounding = RoundUp
 setrounding(BigFloat, new_rounding)
 println("The new rounding of BigFloat: $(new_rounding)")
-big_float3 = BigFloat(5/7)
+big_float3 = BigFloat(5 / 7)
 println("The big float(3): $(big_float3) ($(typeof(big_float3)))")

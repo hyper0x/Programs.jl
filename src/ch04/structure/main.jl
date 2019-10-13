@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.1.1
-# - Author: haolin
-# - Date: 2019-07-10
+# - Julia version: 1.2.0
+# - Author: HaoLin
+# - Date: 2020-01-01
 
 # 代表用户的不可变复合类型。
 struct User
