@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 获取字符串的尺寸和长度。
 comment1 = "codeunit 函数会返回给定字符串对象的代码单元类型"

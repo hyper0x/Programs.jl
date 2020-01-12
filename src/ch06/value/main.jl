@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 字符相关的示例。
 println("Chars: $('中') $('\u4e2d') $('\U004e2d')")

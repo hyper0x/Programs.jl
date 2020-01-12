@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 """
     basic_info(array::Array)
@@ -14,13 +14,13 @@ basic_info(array::Array) = "$(array) ($(summary(array)))"
 temp_array = Array{Int64}(undef, 4, 3, 2)
 println("Array{Int64}(undef, 4, 3, 2) -> $(basic_info(temp_array))\n")
 
-temp_array = Array{Int64, 4}(undef, (4, 3, 2, 2))
+temp_array = Array{Int64,4}(undef, (4, 3, 2, 2))
 println("Array{Int64, 4}(undef, (4, 3, 2, 2)) -> $(basic_info(temp_array))\n")
 
-temp_array = Array{Union{Nothing, String}}(nothing, 2, 2)
+temp_array = Array{Union{Nothing,String}}(nothing, 2, 2)
 println("Array{Union{Nothing, String}}(nothing, 2, 2) -> $(basic_info(temp_array))\n")
 
-temp_array = Array{Union{Missing, Int64}}(missing, 2, 3)
+temp_array = Array{Union{Missing,Int64}}(missing, 2, 3)
 println("Array{Union{Missing, Int64}}(missing, 2, 3) -> $(basic_info(temp_array))\n\n")
 
 

@@ -1,12 +1,12 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 构造集合。
 println("The set (1): $(Set([1, 2, 4]))")
 println("The set (1): $(Set((1, 2, 4)))")
-println("The set (2): $(Set(Dict(1=>"x", 2=>"y", 4=>"z")))")
+println("The set (2): $(Set(Dict(1 => "x", 2 => "y", 4 => "z")))")
 println("The set (1): $(Set((1, 2.0, "4")))\n\n")
 
 

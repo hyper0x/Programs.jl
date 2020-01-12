@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 线性索引。
 array2d = [[1,2,3,4,5] [6,7,8,9,10] [11,12,13,14,15] [16,17,18,19,20] [21,22,23,24,25] [26,27,28,29,30]]
@@ -18,7 +18,7 @@ println("array2d[1:6] -> $(temp_result1)\n\n")
 # 笛卡尔索引。
 println("array2d[CartesianIndex(3, 2, 1)] -> $(array2d[CartesianIndex(3, 2, 1)])\n")
 
-array3d = reshape(array2d, (3,5,2))
+array3d = reshape(array2d, (3, 5, 2))
 println("The array named array3d: $(array3d) ($(summary(array3d)))\n")
 
 temp_result2 = array3d[:, :, 1]

@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.3.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 各种容器和字符串的迭代。
 for e in [[1,2] [3,4] [5,6]]
@@ -25,12 +25,12 @@ end
 println("\n")
 
 # 迭代多个对象。
-for x = 1:2, y = 10:10:30
+for x in 1:2, y in 10:10:30
     print((x, y), " ")
 end
 println("\n")
 
-for x = 1:2, y = 10:10:30
+for x in 1:2, y in 10:10:30
     print((x, y), " ")
     x = 2
 end

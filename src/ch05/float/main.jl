@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 一个数组，容纳了所有可以代表浮点数的原语类型。
 float_types = [Float16, Float32, Float64]

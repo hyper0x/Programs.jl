@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.3.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 没有参数类型声明的方法。
 sum3(a, b) = a + b

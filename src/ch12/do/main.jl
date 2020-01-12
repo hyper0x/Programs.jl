@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.3.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 拥有两个位置参数的方法。
 function map1(f::Function, vec::Vector)

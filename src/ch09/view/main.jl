@@ -1,9 +1,9 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
-array4d = reshape(Vector(1:36), (3,3,2,2))
+array4d = reshape(Vector(1:36), (3, 3, 2, 2))
 println("The array named array4d: $(array4d) ($(summary(array4d)))\n")
 
 array4d_view1 = view(array4d, 26)
@@ -23,7 +23,7 @@ println("The view named array4d_view2: $(array4d_view2) ($(summary(array4d_view2
 println("The element values in array4d_view2: $(array4d_view2[[1, 2, 3]])\n")
 
 array4d_view2[[1,2,3]] = [10, 30, 50]
-println( "array4d_view2[[1,2,3]] = [10, 30, 50]")
+println("array4d_view2[[1,2,3]] = [10, 30, 50]")
 println("The element values in array4d_view2: $(array4d_view2[:])\n")
 
 array4d_view3 = view(array4d, :, 1, 2, 2)

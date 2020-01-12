@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.3.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 println("What's your name?")
 name = readline(stdin) # 程序会等候你在终端中输入名字并回车。

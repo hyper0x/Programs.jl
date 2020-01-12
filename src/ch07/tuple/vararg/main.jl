@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 可变参数的元组。
 vtt1 = Tuple{Vararg{String}}
@@ -16,9 +16,9 @@ tt1 = Tuple{Int,Int,Int,Int,Int}
 println("A type of normal tuple called tt1: $(tt1)")
 println("vtt2 == tt1 -> $(vtt2 == tt1)\n")
 
-tuple1 = (1,2,3,4,5)
+tuple1 = (1, 2, 3, 4, 5)
 println("The tuple named tuple1: $(tuple1)")
 println("isa(tuple1, vtt2) -> $(isa(tuple1, vtt2))")
-tuple2 = (1,2,3,4,5,6,7,8,9,0)
+tuple2 = (1, 2, 3, 4, 5, 6, 7, 8, 9, 0)
 println("The tuple named tuple2: $(tuple2)")
 println("isa(tuple1, vtt2) -> $(isa(tuple2, vtt2))\n")

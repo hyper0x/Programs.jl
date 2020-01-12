@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 一维数组。
 temp_array1 = [1,2,3,4,5,6,7,8,9]
@@ -55,9 +55,9 @@ temp_result4 = findmin(temp_array3)
 println("findmin(temp_array3) -> $(findmin(temp_array3))\n")
 
 # 最小值和最大值：二维数组。
-temp_array5 = findmax(array2d, dims=1)
+temp_array5 = findmax(array2d, dims = 1)
 println("findmax(array2d, dims=1) -> $(temp_array5)")
-temp_array5 = findmax(array2d, dims=2)
+temp_array5 = findmax(array2d, dims = 2)
 println("findmax(array2d, dims=2) -> $(temp_array5)")
-temp_array5 = findmax(array2d, dims=(1,2))
+temp_array5 = findmax(array2d, dims = (1, 2))
 println("findmax(array2d, dims=(1,2)) -> $(temp_array5)\n")

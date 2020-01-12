@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 """
     get_uint32(x)
@@ -24,4 +24,4 @@ println("Invoke function get_uint32 with 2020: $(z::UInt32) (type: $(typeof(z)))
 # 使用 Ref{T} 类型的全局常量替代全局变量。
 const xref = Ref{UInt32}(2020)
 # 操作符 [] 可用于存/取引用的值。
-println("xref: $(xref[]::UInt32)")
+println("xref -> $(xref[]::UInt32)")

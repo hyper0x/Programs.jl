@@ -1,7 +1,7 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 普通的元组。
 tt1 = Tuple{Real}
@@ -9,8 +9,8 @@ tt2 = Tuple{Integer}
 tt3 = Tuple{Real,Char}
 tt4 = Tuple{Integer,Char}
 tt5 = Tuple{Real,AbstractChar}
-tt6 = Tuple{Integer, AbstractChar}
-tt7 = Tuple{Integer, String}
+tt6 = Tuple{Integer,AbstractChar}
+tt7 = Tuple{Integer,String}
 
 println("$(tt1) >: $(tt2) -> $(tt1 >: tt2)")
 println("$(tt3) >: $(tt4) -> $(tt3 >: tt4)")

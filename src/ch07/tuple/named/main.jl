@@ -1,10 +1,10 @@
 # 示例的演示文件。
-# - Julia version: 1.2.0
+# - Julia version: 1.3.1
 # - Author: HaoLin
-# - Date: 2020-01-01
+# - Date: 2020-04-01
 
 # 有名的元组。
-named_tuple1 = (name="Robert", reg_year=2020, extra="something")
+named_tuple1 = (name = "Robert", reg_year = 2020, extra = "something")
 println("The named tuple called named_tuple1: $(named_tuple1)")
 println("The type of named_tuple1: $(typeof(named_tuple1))")
 elem_name1 = :reg_year
