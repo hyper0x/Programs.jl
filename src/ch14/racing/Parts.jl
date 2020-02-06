@@ -54,7 +54,7 @@ struct IntermediateTyre <: Tyre end
 struct WetTyre <: Tyre end
 
 """
- select_tyre
+    select_tyre
 
 泛化函数，用于轮胎的选择。
 基于该函数的衍生方法应该依据传入的参数值返回某一类轮胎的实例。
